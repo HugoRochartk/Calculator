@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="display">0</div>
+    <div id="buttons">
+
+        <input type="button" onclick="reset()" value="C">
+        <input id="delete" type="button" onclick="dlt()" value="del">  
+        <input type="button" onclick="result()" value="="> <br>
+        <input type="button" onclick="put('1')" value="1">
+        <input type="button" onclick="put('2')" value="2"> 
+        <input type="button" onclick="put('3')" value="3"> 
+        <input type="button" onclick="put('+')" value="+"> <br>
+        <input type="button" onclick="put('4')" value="4">
+        <input type="button" onclick="put('5')" value="5">
+        <input type="button" onclick="put('6')" value="6">
+        <input type="button" onclick="put('-')" value="-"> <br>  
+        <input type="button" onclick="put('7')" value="7">
+        <input type="button" onclick="put('8')" value="8">
+        <input type="button" onclick="put('9')" value="9">
+        <input type="button" onclick="put('x')" value="x"> <br>  
+        <input type="button" onclick="put('.')" value=".">
+        <input type="button" onclick="put('0')" value="0"> 
+        <input type="button" onclick="put('%')" value="%">
+        <input type="button" onclick="put('/')" value="/">
+        
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
